@@ -1305,7 +1305,7 @@ a:focus {
 .contact {
     position: relative;
     width: 100%;
-    margin: 45px 0;
+    margin: 0px 0;
     background: #EF233C;
 }
 
@@ -1464,7 +1464,7 @@ a:focus {
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
+    margin-top: 0px;
     background: #EF233C;
 }
 
