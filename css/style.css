@@ -1589,3 +1589,98 @@ a:focus {
         padding: 0 5px;
     }
 }
+    <style>
+        /* Styles for Certifications Section */
+        .certifications {
+            padding: 60px 0;
+            background-color: #f9f9f9;
+        }
+
+        .certification-content {
+            margin-bottom: 30px;
+        }
+
+        .certification-item {
+            padding: 20px;
+        }
+
+        .certification-wrap {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .certification-img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+
+        .certification-item h3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Responsive behavior */
+        @media (max-width: 991px) {
+            .certification-item {
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .certification-item {
+                padding: 10px;
+            }
+        }
+    </style>
+
+        <style>
+        /* Grid and Background Styling */
+        .banner {
+            background-color: white;
+            padding: 20px 0;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            /* 4 images per row */
+            gap: 20px;
+            justify-items: center;
+            align-items: center;
+        }
+
+        .tool-item {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .tool-item:hover {
+            transform: scale(1.05);
+            /* Slight zoom effect on hover */
+        }
+
+        .tool-item img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        /* Text Centering and Title Styling */
+        .section-header h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        </style>
+
