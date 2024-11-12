@@ -37,11 +37,11 @@
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
-                    <a href="#home" class="nav-item nav-link active">Home</a>
-                    <a href="#about" class="nav-item nav-link">My Story</a>
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">My Story</a>
                     <a href="#experience" class="nav-item nav-link">My Journey</a>
                     <a href="#review" class="nav-item nav-link">Testimonials</a>
-                    <a href="myWork.html" class="nav-item nav-link">My Work</a>
+                    <a href="#portfolio" class="nav-item nav-link">My Work</a>
                     <a href="#blog" class="nav-item nav-link">Blog</a>
                     <a href="#contact" class="nav-item nav-link">Contact</a>
                 </div>
@@ -229,25 +229,23 @@
                     <div class="col-md-8">
                         <div class="contact-form">
                             <div id="success"></div>
-                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <form name="sentMessage" id="contactForm" novalidate="novalidate"
+                                action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="85588672-1d1f-4a2f-9e47-4572f171f180">
                                 <div class="control-group">
                                     <input type="text" class="form-control" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
+                                        name="name" required="required"
+                                        data-validation-required-message="Please enter your name" />
                                     <p class="help-block"></p>
                                 </div>
                                 <div class="control-group">
                                     <input type="email" class="form-control" id="email" placeholder="Your Email"
-                                        required="required"
+                                        name="email" required="required"
                                         data-validation-required-message="Please enter your email" />
                                     <p class="help-block"></p>
                                 </div>
                                 <div class="control-group">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject"
-                                        required="required" data-validation-required-message="Please enter a subject" />
-                                    <p class="help-block"></p>
-                                </div>
-                                <div class="control-group">
-                                    <textarea class="form-control" id="message" placeholder="Message"
+                                    <textarea class="form-control" id="message" placeholder="Message" name="message"
                                         required="required"
                                         data-validation-required-message="Please enter your message"></textarea>
                                     <p class="help-block"></p>
